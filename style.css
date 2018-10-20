@@ -1,0 +1,8 @@
+.done {
+    background-color: green;
+}
+
+#todo-list li {
+    cursor: pointer;
+    width: 100px;
+}
