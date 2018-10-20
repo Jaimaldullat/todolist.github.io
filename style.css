@@ -61,4 +61,6 @@ body {
     cursor: pointer;
     text-align: left;
     font-size: 18px;
+    padding: 3px;
+    border-radius: 5px;
 }
