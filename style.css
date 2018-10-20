@@ -1,8 +1,64 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right bottom, from(red), to(yellow));
+    background: linear-gradient(to bottom right, red, yellow);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wrapper h1 {
+    font-family: 'Kodchasan', sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#todo-input {
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid red;
+    width: 200px;
+    padding: 2px;
+}
+
+#todo-button {
+    color: red;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-size: 18px;
+    padding: 2px 5px;
+}
+
+#todo-list {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.delete-button {
+    float: right;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+}
+
 .done {
     background-color: green;
 }
 
 #todo-list li {
     cursor: pointer;
-    width: 100px;
+    text-align: left;
+    font-size: 18px;
 }
